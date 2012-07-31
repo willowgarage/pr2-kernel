@@ -1,0 +1,6 @@
+arch="amd64"
+supported="Generic"
+target="Realtime Kernel for the PR2"
+desc="=HUMAN= SMP"
+bootloader="grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo (>= 19.1)"
+provides=""
