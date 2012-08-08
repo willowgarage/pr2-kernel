@@ -1,4 +1,4 @@
-linux (3.4.4.rt13-1.2) precise; urgency=low
+linux (3.4.4.rt13-2.1) precise; urgency=low
 
   * Configure e1000e as a module.
 
