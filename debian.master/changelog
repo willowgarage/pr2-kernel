@@ -1,3 +1,9 @@
+linux (3.4.4.rt13-1.2) precise; urgency=low
+
+  * Configure e1000e as a module.
+
+ -- Austin Hendrix <ahendrix@willowgarage.com>  Mon, 16 Jul 2012 15:37:20 -0700
+
 linux (3.4.4.rt13-1.1) precise; urgency=low
 
   * First build of 3.4.4-rt13 kernel on ubuntu.
