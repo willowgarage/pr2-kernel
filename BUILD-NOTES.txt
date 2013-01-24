@@ -5,8 +5,12 @@ Build package: dpkg-buildpackage
 
 Running "clean" removes ABI files needed by the next version; don't run clean after building the final release version. (dpkg-buildpackage -Tclean)
 
-Build-generated files required for subsequent builds:
-debian.master/abi/<oldversion>
+After a build (and dpkg-buildpackage -Tclean), the following directories can be delete:
+debian/d-i-amd64
 
 After a build, check in the following files/directories:
 debian.master/abi/<version>
+
+TODO:
+remove debian/d-i-amd64 as part of the 'clean' target.
+clean up perl errors when running 'clean' target.
