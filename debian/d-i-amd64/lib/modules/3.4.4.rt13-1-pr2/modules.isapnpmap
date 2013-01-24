@@ -1,4 +1,0 @@
-# isapnp module      cardvendor carddevice driver_data vendor     function   ...
-wbsd                 0xffff     0xffff     0x00000000  0xa35c     0x1705    
-wbsd                 0xffff     0xffff     0x00000000  0xa35c     0x1805    
-snd-mpu401           0xffff     0xffff     0x00000000  0xd041     0x06b0    
