@@ -79,3 +79,6 @@ GTAGS
 *.orig
 *~
 \#*#
+
+# deb build files
+ignore-dups
