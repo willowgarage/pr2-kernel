@@ -1004,6 +1004,12 @@ UNUSUAL_DEV( 0x07cf, 0x1001, 0x1000, 0x9999,
 		USB_SC_8070, USB_PR_CB, NULL,
 		US_FL_NEED_OVERRIDE | US_FL_FIX_INQUIRY ),
 
+/* Submitted by Oleksandr Chumachenko <ledest@gmail.com> */
+UNUSUAL_DEV( 0x07cf, 0x1167, 0x0100, 0x0100,
+		"Casio",
+		"EX-N1 DigitalCamera",
+		USB_SC_8070, USB_PR_DEVICE, NULL, 0),
+
 /* Submitted by Hartmut Wahl <hwahl@hwahl.de>*/
 UNUSUAL_DEV( 0x0839, 0x000a, 0x0001, 0x0001,
 		"Samsung",
@@ -1106,13 +1112,6 @@ UNUSUAL_DEV( 0x090a, 0x1200, 0x0000, 0x9999,
 		"MP3 player",
 		USB_SC_RBC, USB_PR_BULK, NULL,
 		0 ),
-
-/* Feiya QDI U2 DISK, reported by Hans de Goede <hdegoede@redhat.com> */
-UNUSUAL_DEV( 0x090c, 0x1000, 0x0000, 0xffff,
-		"Feiya",
-		"QDI U2 DISK",
-		USB_SC_DEVICE, USB_PR_DEVICE, NULL,
-		US_FL_NO_READ_CAPACITY_16 ),
 
 /* aeb */
 UNUSUAL_DEV( 0x090c, 0x1132, 0x0000, 0xffff,
