@@ -1,3 +1,9 @@
+linux (3.4.28.rt40-1.1) precise; urgency=low
+
+  * Update to v3.4.28-rt40
+
+ -- Austin Hendrix <ahendrix@willowgarage.com>  Mon, 04 Feb 2013 14:00:35 -0800
+
 linux (3.4.4.rt13-3.1) precise; urgency=low
 
   * Enable FTRACE features for cyclictest.
